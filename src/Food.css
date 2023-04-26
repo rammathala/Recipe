@@ -1,0 +1,34 @@
+.food{
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+}
+.foodli{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dishlist{
+ padding: 10px;
+ display: flex;
+ align-items:flex-end;
+ justify-content: right;
+ width: 100%;
+ margin-right: 70px;
+}
+.dis{
+    font-size: 30px;
+}
+.dishlist >p{
+    padding: 4px 9px;
+    background-color: brown;
+    color: white;
+    border-radius: 50%;
+    font-weight: 700;
+}
